@@ -1,0 +1,10 @@
+<!-- Common Navigation Panel for our site -->
+<li id="submenu">
+    <h2>Select an option</h2>
+    <ul>
+        <li><a href="products.php">View All Products</a></li>
+        <li><a href="product_add.php">Add New Product</a></li>
+        <li><a href="type_add.php">Add New Product Type</a></li>
+        <li><a href="industry_add.php">Add New Industry</a></li>        
+    </ul>
+</li>

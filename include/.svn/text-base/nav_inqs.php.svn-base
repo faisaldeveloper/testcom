@@ -1,0 +1,12 @@
+<!-- Common Navigation Panel for our site -->
+<li id="submenu">
+    <h2>Select an option</h2>
+    <ul>
+        <li><a href="listitinerary.php">View Itinerary</a></li>
+        <li><a href="processitinerary.php">Book Ticket</a></li>
+        <li><a href="inq_principals.php">Sent Inquiry to Principal</a></li>
+        <li><a href="inq_principals_edit.php">Edit Inquiry to Principal</a></li>
+        <li><a href="confirmreservation.php">Confirm Reservation</a></li>
+
+    </ul>
+</li>

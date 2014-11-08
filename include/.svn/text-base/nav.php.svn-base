@@ -1,0 +1,27 @@
+<!-- Common Navigation Panel for our site -->
+<li id="submenu">
+    <h2>Select an option</h2>
+    <ul>
+        <?php if($usertype == "Admin"){?>
+            <li><a href="user.php">Users</a></li>
+            
+            <?php }
+			if($userid > 0 ){//user related menu
+			?>
+            
+            
+            
+            <li><a href="inqs.php">Inquiries</a></li>
+            <li><a href="quotations.php">Quotations</a></li>
+            <li><a href="pos.php">P / O</a></li>
+           	<li><a href="clients.php">Clients</a></li>
+            <li><a href="principals.php">Principals</a></li>
+            <li><a href="products.php">Products</a></li>
+            
+            
+            
+            
+            <?php }?>
+
+    </ul>
+</li>

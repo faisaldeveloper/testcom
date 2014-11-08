@@ -1,0 +1,12 @@
+<!-- Common Navigation Panel for our site -->
+<?php if($_SESSION['session_user_type']=="Admin"){?>
+<li id="submenu">
+    <h2>Select an option</h2>
+    <ul>
+        <li><a href="user.php">Show All Users</a></li>
+        <li><a href="user_add.php">Add New User</a></li>
+        
+
+    </ul>
+</li>
+<?php }?>

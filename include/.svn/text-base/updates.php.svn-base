@@ -1,0 +1,12 @@
+<!-- Updates and News Box for our site -->
+<li id="news">
+    <h2>Select an option</h2>
+    <ul>
+        <li>
+        	<li><a href="index2.php">Home</a></li>
+            <li><a href="change_password.php">Change Password</a></li>
+            <li><a href="logout.php">Logout</a></li>
+        </li>
+        
+    </ul>
+</li>
